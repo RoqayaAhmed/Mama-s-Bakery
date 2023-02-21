@@ -1,0 +1,317 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                @font-face {
+                    font-family: 'Cookie';
+                    src: url(Cookie-Regular.ttf);
+                }
+                
+                body {
+                    background-image: linear-gradient(to bottom, rgba(255, 228, 188, 0.685), rgba(243, 216, 141, 0.808)), url('ph11.jpg');
+                }
+                
+                .navbar {
+                    width: 100%;
+                    align-items: center;
+                    height: 100px;
+                    text-align: left;
+                    margin-bottom: 10px;
+                    background-color: rgb(245, 214, 188);
+                }
+                
+                .logo {
+                    margin-top: 15px;
+                    margin-left: 30px;
+                    float: left;
+                    padding: 5px;
+                    height: 100px;
+                    width: 100px;
+                    border: none;
+                    border-radius: 50%;
+                }
+                
+                .navbar ul li {
+                    list-style: none;
+                    display: inline-block;
+                    padding: 8px 12px;
+                    position: relative;
+                    color: black;
+                    font-size: 18px;
+                    margin-top: 20px;
+                }
+                
+                .navbar a {
+                    list-style: none;
+                    display: inline-block;
+                    padding: 8px 12px;
+                    position: relative;
+                    color: black;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
+                
+                .navbar a:hover {
+                    list-style: none;
+                    display: inline-block;
+                    padding: 8px 12px;
+                    position: relative;
+                    color: black;
+                    font-size: 18px;
+                    text-decoration: underline black;
+                    transition: 1ms;
+                }
+                
+                .search {
+                    margin-top: 25px;
+                    margin-left: 0px;
+                    margin-right: 20px;
+                    float: right;
+                    padding: 5px;
+                    height: 50px;
+                    width: 65px;
+                    border: none;
+                    border-radius: 0px 10px 10px 0px;
+                }
+                
+                .t1 {
+                    margin-top: 25px;
+                    margin-left: 0px;
+                    margin-right: 0px;
+                    float: right;
+                    width: 200px;
+                    height: 50px;
+                    border: none;
+                    border-radius: 10px 0px 0px 10px;
+                }
+                
+                .part {
+                    width: 100%;
+                    height: 800px;
+                }
+                
+                .book1 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 100px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph1.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .book2 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 70px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph2.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .book3 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 70px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph3.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .book4 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 100px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph4.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .book5 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 70px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph5.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .book6 {
+                    width: 25%;
+                    height: 45%;
+                    float: left;
+                    margin-left: 70px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                    border-radius: 15px;
+                    background-image: url(ph6.jpeg);
+                    background-size: 100% 100%;
+                    overflow: hidden;
+                }
+                
+                .but1 {
+                    width: 80px;
+                    height: 30px;
+                    margin-left: 150px;
+                    background-color: transparent;
+                    border: white solid 2px;
+                    color: white;
+                }
+                
+                .try2 {
+                    height: 100%;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.5);
+                    opacity: 0;
+                }
+                
+                .book1:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .book2:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .book3:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .book4:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .book5:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .book6:hover .try2 {
+                    opacity: 1;
+                    transition: 1s;
+                    transition-delay: 1s;
+                    right: 0;
+                }
+                
+                .contact {
+                    width: 100%;
+                    height: 480px;
+                    background-color: rgb(245, 214, 188);
+                }
+                
+                .hr {
+                    background-color: grey;
+                    margin: 50px auto;
+                    height: 4px;
+                    width: 50%;
+                    border-radius: 50%;
+                }
+                
+                .try {
+                    display: inline;
+                    height: 50%;
+                    width: 35px;
+                    float: left;
+                }
+                
+                .icon {
+                    margin-left: 30px;
+                    height: 30px;
+                    width: 30px;
+                    border-radius: 50%;
+                    display: block;
+                }
+                
+                .info {
+                    width: 25%;
+                    height: 50%;
+                    float: left;
+                    margin-left: 50px;
+                    margin-right: 5px;
+                    margin-bottom: 10px;
+                    color: black;
+                }
+                
+                .aboutUs {
+                    width: 25%;
+                    height: 50%;
+                    float: left;
+                    margin-left: 100px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                
+                .feedback {
+                    width: 25%;
+                    height: 50%;
+                    float: left;
+                    margin-left: 100px;
+                    margin-right: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 10px;
+                }
+                
+                .but2 {
+                    width: 80px;
+                    height: 30px;
+                    margin-top: 4px;
+                    color: white;
+                    background-color: gray;
+                    border: black solid 1px;
+                    border-radius: 10px;
+                }
+                
+                .but3 {
+                    text-align: center;
+                    width: 100px;
+                    height: 50px;
+                    margin-left: 150px;
+                    background-color: rgb(238, 164, 146);
+                    border: black solid 2px;
+                    border-radius: 5px;
+                    color: black;
+                    padding: 10px;
+                    font-size: large;
+                    font-family: 'Cookie', cursive;
+                }

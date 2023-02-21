@@ -1,0 +1,260 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family:'Cookie' ;
+    src: url(Cookie-Regular.ttf);
+}
+body{
+    background-color: whitesmoke;
+}
+.navbar{
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    text-align: left;
+    background-color: rgb(245, 214, 188);   
+    margin-bottom: 10px;
+}
+.logo{
+    
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color:black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.navbar a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color:black;
+    font-size: 18px;
+    text-decoration:underline black;
+    transition: 1ms;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    float: right;
+    padding: 5px;
+    height: 50px;
+    width: 65px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.t1{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.car{
+    width:93%;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.pic1{
+    width: 100%;
+    height: 100%;
+}
+.describtion{
+height: 390px;
+width: 90%;
+margin-left: 80px;
+margin-right: 50px;
+margin-top: 20px;
+margin-bottom: 90px;
+display: inline-block;
+box-shadow:10px 10px 10px grey;
+background-color: rgb(253, 227, 189);
+}
+.pic{
+    height: 100%;
+    width: 30%; 
+    display: inline-block; 
+}
+.pic2{
+height: 100%;
+width: 100%;
+}
+.txt{
+    display: inline;
+    position: relative;
+    text-align: center;
+    height: 70%;
+    width: 50%;
+    float: right;
+    margin-right: 130px;
+   margin-top: 50px;
+   
+}
+.p{
+    font-size: 100px;
+}
+
+.sep{
+    height: 390px;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.special{
+width: 25%;
+height:100% ;
+float: left;
+margin-left: 100px;
+margin-right: 5px;
+margin-top: 5px;
+margin-bottom: 10px;
+border-radius: 15px;
+background-image: url( try7.jpeg);
+background-size: 100% 100%;
+overflow: hidden;
+box-shadow:10px 10px 10px grey;
+}
+.offers{
+    width: 25%;
+    height:100% ;
+    float: left;
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-image: url( offer.jpeg);
+    
+    background-size: 100% 100%;
+    overflow: hidden;
+    box-shadow:10px 10px 10px grey;
+    }
+    .trending{
+        width: 25%;
+        height:100% ;
+        float: left;
+        margin-left: 100px;
+        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 15px;
+        background-image: url( best.jpeg);
+        
+        background-size: 100% 100%;
+        overflow: hidden;
+        box-shadow:10px 10px 10px grey;
+        }
+.sephover{
+    height: 30%;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgba(114, 114, 114, 0.5);
+    opacity: 1;
+    
+}
+
+.contact{
+    width: 100%;
+    height: 480px;
+    background-color: rgb(245, 214, 188);
+}
+.hr{
+    background-color:grey;
+    margin: 50px auto;
+    height: 4px;
+    width: 50%;
+    border-radius: 50%;   
+    }
+.try{
+    display: inline;
+    height: 50%;
+     width: 35px;
+    float: left;
+    }
+    .icon{
+    
+        
+        margin-left: 30px;
+        
+        
+        height: 30px;
+        width: 30px;
+       border-radius: 50%;
+       display: block;
+    }
+.info{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    
+    margin-bottom: 10px;
+    color: black;
+}
+.aboutUs{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+.feedback{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.but2{
+    width: 80px;
+    height: 30px;
+    margin-top: 4px;
+    color:white;
+    background-color: gray;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.but3{
+    width: 80px;
+    height: 30px;
+    margin-left: 130px;
+    background-color: transparent;
+    border: white solid 2px;
+    color: white;
+}

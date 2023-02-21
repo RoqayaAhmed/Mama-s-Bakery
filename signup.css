@@ -1,0 +1,240 @@
+*{
+    padding:0;
+    margin:0;
+}
+@font-face {
+    font-family:'Cookie' ;
+    src: url(Cookie-Regular.ttf);
+}
+body{
+    background-image: url("back5.jfif");
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    
+}
+.navbar{
+    width: 100%;
+    align-items: center;
+    height: 100px;
+    text-align: left;
+    background-color: rgb(245, 214, 188);   
+    margin-bottom: 10px;
+}
+.logo{
+    
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+    padding: 5px;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color:black;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.navbar a{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    color:black;
+    font-size: 18px;
+    text-decoration:underline black;
+    transition: 1ms;
+}
+.search{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 20px;
+    float: right;
+    padding: 5px;
+    height: 50px;
+    width: 65px;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+}
+.t1{
+    margin-top: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    float: right;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+
+.signup{
+    padding: 40px;
+    padding-left: 60px;
+    padding-bottom: 80px;
+    font-family: 'cookie','cursive';
+    font-size: xx-large;
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 30%;
+    height: 100%;
+    background-image:linear-gradient(rgba(243, 232, 232, 0.7),rgba(243, 232, 232, 0.7));
+    border-radius: 20px;
+    margin-bottom: 150px;
+    
+}
+.signup .logo{
+    margin-top: -25px;
+    margin-left: -25px;
+    float: left;
+    padding: 5px;
+    height: 70px;
+    width: 70px;
+    border: none;
+    border-radius: 50%;
+}
+.signup h6{
+    font-size: 29px;
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+.signup a{
+    float: right;
+    margin-top: -80px;
+    font-size: 25px;
+}
+.ca{
+    font-size: larger;
+    display: block;
+    float: left;
+    margin-left: -30px;
+}
+.signup .sign{
+    padding: 6px;
+    border-radius: 20px;
+    border: rgb(134, 123, 123);
+    width: 250px;
+    outline: none;
+    border: 0px;
+}
+.sign:hover{
+    padding: 6px;
+    border-radius: 20px;
+    border: rgb(134, 123, 123);
+    width: 250px;
+    outline: none;
+    border: 0px;
+}
+.sign:active{
+    padding: 6px;
+    border-radius: 20px;
+    border: rgb(134, 123, 123);
+    width: 250px;
+    outline: none;
+    border: 0px;
+}
+.sub{
+    padding: 5px;
+    width: 90px;
+    height: 50px;
+    border-radius: 15px;
+    text-align: center;
+    float: right;
+    background-color: rgb(245, 214, 188);
+    border-color: gray;
+}
+
+
+.contact{
+    
+    width: 100%;
+    height: 480px;
+    background-color: rgb(245, 214, 188);
+}
+.hr{
+    background-color:grey;
+    margin: 50px auto;
+    height: 4px;
+    width: 50%;
+    border-radius: 50%;   
+    }
+    .try{
+display: inline;
+height: 50%;
+width: 35px;
+float: left;
+    }
+    .icon{
+    
+        
+        margin-left: 30px;
+        
+        
+        height: 30px;
+        width: 30px;
+       border-radius: 50%;
+       display: block;
+    }
+.info{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 50px;
+    margin-right: 5px;
+    
+    margin-bottom: 10px;
+    color: black;
+}
+.aboutUs{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    }
+.feedback{
+    width: 25%;
+    height:50% ;
+    float: left;
+    margin-left: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.but2{
+    width: 80px;
+    height: 30px;
+    margin-top: 4px;
+    color:white;
+    background-color: gray;
+    border: black solid 1px;
+    border-radius: 10px;
+}
+.but3{
+    width: 80px;
+    height: 30px;
+    margin-left: 130px;
+    background-color: transparent;
+    border: white solid 2px;
+    color: white;
+}
